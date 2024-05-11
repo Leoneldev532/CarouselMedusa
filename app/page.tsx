@@ -119,7 +119,7 @@ import { useEffect, useState } from 'react';
 
             <div className='flex justify-center   gap-x-3  w-[75rem] items-center h-full'> 
 
-                <div  className='w-[25rem] flex  flex-col  transition-all ease duration-300 overflow-hidden bg-red-500 imageSlide h-96 border-2 rounded-lg relative '>
+                <div  className='w-[25rem] flex  flex-col  transition-all ease duration-300 overflow-hidden  imageSlide h-96 border-2 rounded-lg relative '>
                   <div className="absolute h-96 w-[45rem] overflow-hidden"> 
                     <Image src={image1} alt="image1" className=" h-96 w-[45rem] transition-none  z-0 object-cover" />
                     </div>
@@ -134,7 +134,7 @@ import { useEffect, useState } from 'react';
                 </div>
 
 
-                <div  className='w-36 flex  flex-col  transition-all ease duration-300 overflow-hidden bg-red-500 imageSlide h-96 border-2 rounded-lg relative '>
+                <div  className='w-36 flex  flex-col  transition-all ease duration-300 overflow-hidden  imageSlide h-96 border-2 rounded-lg relative '>
                   <div className="absolute h-96 w-[45rem] overflow-hidden"> 
                     <Image src={image2} alt="image1" className=" h-96 w-[45rem] transition-none  z-0 object-cover" />
                     </div>
@@ -149,7 +149,7 @@ import { useEffect, useState } from 'react';
                 </div>
 
 
-                <div  className='w-36 flex  flex-col  transition-all ease duration-300 overflow-hidden bg-red-500 imageSlide h-96 border-2 rounded-lg relative '>
+                <div  className='w-36 flex  flex-col  transition-all ease duration-300 overflow-hidden  imageSlide h-96 border-2 rounded-lg relative '>
                   <div className="absolute h-96 w-[45rem] overflow-hidden"> 
                     <Image src={image3} alt="image1" className=" h-96 w-[45rem] transition-none  z-0 object-cover" />
                     </div>
@@ -163,7 +163,7 @@ import { useEffect, useState } from 'react';
                     </div>
                 </div>
 
-                <div className='w-36 flex  flex-col  transition-all ease duration-300 overflow-hidden bg-red-500 imageSlide h-96 border-2 rounded-lg relative '>
+                <div className='w-36 flex  flex-col  transition-all ease duration-300 overflow-hidden  imageSlide h-96 border-2 rounded-lg relative '>
                   <div className="absolute h-96 w-[45rem] overflow-hidden"> 
                     <Image src={image4} alt="image1" className=" h-96 w-[45rem] transition-none  z-0 object-cover" />
                     </div>

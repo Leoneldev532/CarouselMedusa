@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+
+
+@font-face {
+  font-family: "aeonikr";
+  src: url("../public/font/AeonikTRIAL-Regular.otf");
+}
+
+
+@font-face {
+  font-family: "aeonikb";
+  src: url("../public/font/AeonikTRIAL-Regular.otf");
+}
+
+.aeronikr  {
+  font-family: "aeonikr";
+}
+.aeronikb  {
+  font-family: "aeonikb";
+}
+
+body{
+  font-family: var(--font-Poppins);
+}
+
+.grayscale {
+  filter: grayscale(100%);
+}
+
+.bloc1{
+  transform-origin: 57% 120%;
+}
+
+.imageSlide{
+  transition: all ease 0.5s;
+  transform-origin:left ;
+  transform: none;
+}
+
+.imageSlide img{
+
+  transition: none ;
+
+}

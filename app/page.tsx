@@ -26,12 +26,21 @@ import { useEffect, useState } from 'react';
           imageSlides[idelement].classList.contains("active")
         ) {
           slideTxtBox.style.transform = "translateX(0%)";
+          imageSlides[0].style.filter = "grayscale(0%)";
+          imageSlides[1].style.filter = "grayscale(100%)";
+          imageSlides[2].style.filter = "grayscale(100%)";
+          imageSlides[3].style.filter = "grayscale(100%)";
         }
         if (
           idelement === 1 &&
           imageSlides[idelement].classList.contains("active")
         ) {
           slideTxtBox.style.transform = "translateX(55%)";
+          
+          imageSlides[1].style.filter = "grayscale(0%)";
+          imageSlides[0].style.filter = "grayscale(100%)";
+          imageSlides[2].style.filter = "grayscale(100%)";
+          imageSlides[3].style.filter = "grayscale(100%)";
         }
   
         if (
@@ -39,12 +48,22 @@ import { useEffect, useState } from 'react';
           imageSlides[idelement].classList.contains("active")
         ) {
           slideTxtBox.style.transform = "translateX(107%)";
+          
+          imageSlides[2].style.filter = "grayscale(0%)";
+          imageSlides[0].style.filter = "grayscale(100%)";
+          imageSlides[1].style.filter = "grayscale(100%)";
+          imageSlides[3].style.filter = "grayscale(100%)";
         }
         if (
           idelement === 3 &&
           imageSlides[idelement].classList.contains("active")
         ) {
           slideTxtBox.style.transform = "translateX(165%)";
+          
+          imageSlides[3].style.filter = "grayscale(0%)";
+          imageSlides[0].style.filter = "grayscale(100%)";
+          imageSlides[1].style.filter = "grayscale(100%)";
+          imageSlides[2].style.filter = "grayscale(100%)";
         }
       };
   

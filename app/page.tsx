@@ -6,6 +6,7 @@ import image2 from "@/public/2.jpg";
 import image3 from "@/public/3.jpg";
 import image4 from "@/public/4.jpg";
 import Image from 'next/image';
+import Link from "next/link";
 import { useEffect, useState } from 'react';
   const Page = () => {
     
@@ -117,7 +118,7 @@ import { useEffect, useState } from 'react';
 
       <div className="flex flex-col relative min-h-screen  text-black justify-center h-full items-center w-full">
 
-            <div className='flex justify-center   gap-x-3  w-[75rem] items-center h-full'> 
+            <div className='md:flex hidden  justify-center  gap-x-3  w-[75rem] items-center h-full'> 
 
                 <div  className='w-[25rem] flex  flex-col  transition-all ease duration-300 overflow-hidden  imageSlide h-96 border-2 rounded-lg relative '>
                   <div className="absolute h-96 w-[45rem] overflow-hidden"> 
@@ -232,7 +233,7 @@ import { useEffect, useState } from 'react';
 
 
             </div>
-            <div className="flex  w-[54rem] justify-start items-center  py-5">
+            <div className="md:flex  hidden w-[54rem] justify-start items-center  py-5">
 
                   <div className="w-72  transition-all ease duration-300  slideTxtBox   flex  gap-y-4 flex-col">
                       
@@ -280,6 +281,19 @@ import { useEffect, useState } from 'react';
 
 
                 </div>
+                <div className="w-full pt-8 flex flex-col text-center gap-y-4 justify-center items-center">
+        <h2 className="md:hidden flex text-balance font-bold max-w-sm">
+          {" "}
+          Animation disponible uniquement sur tablet , laptop et desktop{" "}
+        </h2>
+        <Link
+          href={"https://bento.me/leoy"}
+          className="px-4 py-1 underline  md:rounded-full text-center text-sm md:border md:border-blue-500"
+        >
+          {" "}
+          Code By leonel YIMGA{" "}
+        </Link>
+      </div>
 
       </div>
     )
